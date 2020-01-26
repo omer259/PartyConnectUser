@@ -1,2 +1,2 @@
-# PartyConnect
-Website for PartyConnect app
+# PartyConnectUser
+Website for PartyConnectUser app
