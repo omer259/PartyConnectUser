@@ -6247,8 +6247,19 @@ video {
   color: #232323 !important;
   text-decoration: none;
 }
+.site-header .site-branding .site-logo-nav {
+  display: block;
+  width: 136px;
+  color: #232323 !important;
+  text-decoration: none;
+}
 
 .site-header .site-branding .site-logo > img {
+  display: block;
+  width: 100%;
+
+}
+.site-header .site-branding .site-logo-nav > img {
   display: block;
   width: 100%;
 
@@ -6350,13 +6361,13 @@ video {
   font-size: 12px;
 }
 
-.site-header .toolbar .toolbar-item > a > div > .compare-icon,
+.site-header .toolbar .toolbar-item > a > div > .inbox-icon,
 .site-header .toolbar .toolbar-item > a > div > .cart-icon {
   display: inline-block;
   position: relative;
 }
 
-.site-header .toolbar .toolbar-item > a > div > .compare-icon > .count-label,
+.site-header .toolbar .toolbar-item > a > div > .inbox-icon > .count-label,
 .site-header .toolbar .toolbar-item > a > div > .cart-icon > .count-label {
   display: block;
   position: absolute;
@@ -6371,7 +6382,7 @@ video {
   line-height: 18px;
 }
 
-.site-header .toolbar .toolbar-item > a > div > .compare-icon > .count-label {
+.site-header .toolbar .toolbar-item > a > div > .inboxsite-menu-icon > .count-label {
   right: -17px;
   border: 1px solid #e5e5e5;
   background-color: #f5f5f5;

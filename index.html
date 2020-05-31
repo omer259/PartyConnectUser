@@ -53,7 +53,7 @@
           <div class="toolbar-item visible-on-mobile mobile-menu-toggle"><a href="#">
               <div><i class="icon-menu"></i><span class="text-label">Menu</span></div></a></div>
           <div class="toolbar-item hidden-on-mobile"><a href="product-comparison.html">
-              <div><span class="compare-icon"><i class="icon-repeat"></i><span class="count-label">10</span></span><span class="text-label">Inbox</span></div></a></div>
+              <div><span class="inbox-icon"><i class="icon-repeat"></i><span class="count-label">10</span></span><span class="text-label">Inbox</span></div></a></div>
           <div class="toolbar-item hidden-on-mobile"><a href="account-login.html">
               <div><i class="icon-user"></i><span class="text-label">Sign In / Up</span></div></a>
             <div class="toolbar-dropdown text-center px-3">
@@ -110,7 +110,7 @@
           <!-- Toolbar-->
           <div class="toolbar">
             <div class="toolbar-item"><a href="product-comparison.html">
-                <div><span class="compare-icon"><i class="icon-repeat"></i><span class="count-label">10</span></span><span class="text-label">Inbox</span></div></a></div>
+                <div><span class="inbox-icon"><i class="icon-repeat"></i><span class="count-label">10</span></span><span class="text-label">Inbox</span></div></a></div>
             <div class="toolbar-item"><a href="account-login.html">
                 <div><i class="icon-user"></i><span class="text-label">Sign In / Up</span></div></a></div>
           </div>
@@ -169,9 +169,13 @@
       <!-- Navbar-->
       <div class="navbar">
         <!-- Main Navigation-->
-        <nav class="site-menu">
-          <ul>
 
+        <nav class="site-menu">
+
+          <ul>
+            <div class="site-branding d-flex"><a class="site-logo align-left" href="index.html"><img src="img/logo/trendit/Trendit_Icon_colour_no nameplate.png" alt="PartyConnect"></a>
+             <!--<a class="site-logo align-self-center" href="index.html"><img src="img/logo/trendit/Trendit_nameplate_dark blue.png" alt="PartyConnect"></a>-->
+            </div>
             <li class="active"><a href="index.html">Home</a>
             </li>
             <li class="has-megamenu"><a href="shop-grid-ls.html">Shop</a>
@@ -240,7 +244,7 @@
         <div class="toolbar">
           <div class="toolbar-inner">
             <div class="toolbar-item"><a href="product-comparison.html">
-                <div><span class="compare-icon"><i class="icon-repeat"></i><span class="count-label">10</span></span><span class="text-label">Inbox</span></div></a></div>
+                <div><span class="inbox-icon"><i class="icon-repeat"></i><span class="count-label">10</span></span><span class="text-label">Inbox</span></div></a></div>
             <div class="toolbar-item"><a href="cart.html">
                 <div><span class="cart-icon"><i class="icon-shopping-cart"></i><span class="count-label">3   </span></span><span class="text-label">Cart</span></div></a>
               <div class="toolbar-dropdown cart-dropdown widget-cart">
@@ -569,34 +573,7 @@
         </div>
       </div>
     </section>
-    <!-- Popular Brands Carousel-->
-    <section class="bg-secondary padding-top-3x padding-bottom-3x">
-      <div class="container">
-        <h2 class="h3 text-center mb-30 pb-3">Popular Brands</h2>
-        <div class="owl-carousel" data-owl-carousel="{ &quot;nav&quot;: false, &quot;dots&quot;: false, &quot;loop&quot;: true, &quot;autoplay&quot;: true, &quot;autoplayTimeout&quot;: 4000, &quot;responsive&quot;: {&quot;0&quot;:{&quot;items&quot;:2}, &quot;470&quot;:{&quot;items&quot;:3},&quot;630&quot;:{&quot;items&quot;:4},&quot;991&quot;:{&quot;items&quot;:5},&quot;1200&quot;:{&quot;items&quot;:6}} }"><img class="d-block w-110 opacity-75 m-auto" src="img/brands/01.png" alt="IBM"><img class="d-block w-110 opacity-75 m-auto" src="img/brands/02.png" alt="Sony"><img class="d-block w-110 opacity-75 m-auto" src="img/brands/03.png" alt="HP"><img class="d-block w-110 opacity-75 m-auto" src="img/brands/04.png" alt="Canon"><img class="d-block w-110 opacity-75 m-auto" src="img/brands/05.png" alt="Bosh"><img class="d-block w-110 opacity-75 m-auto" src="img/brands/06.png" alt="Dell"><img class="d-block w-110 opacity-75 m-auto" src="img/brands/07.png" alt="Samsung"></div>
-      </div>
-    </section>
-    <!-- Services-->
-    <section class="container padding-top-3x padding-bottom-2x">
-      <div class="row">
-        <div class="col-md-3 col-sm-6 text-center mb-30"><img class="d-block w-90 img-thumbnail rounded mx-auto mb-4" src="img/services/01.png" alt="Shipping">
-          <h6 class="mb-2">Free Worldwide Shipping</h6>
-          <p class="text-sm text-muted mb-0">Free shipping for all orders over $100</p>
-        </div>
-        <div class="col-md-3 col-sm-6 text-center mb-30"><img class="d-block w-90 img-thumbnail rounded mx-auto mb-4" src="img/services/02.png" alt="Money Back">
-          <h6 class="mb-2">Money Back Guarantee</h6>
-          <p class="text-sm text-muted mb-0">We return money within 30 days</p>
-        </div>
-        <div class="col-md-3 col-sm-6 text-center mb-30"><img class="d-block w-90 img-thumbnail rounded mx-auto mb-4" src="img/services/03.png" alt="Support">
-          <h6 class="mb-2">24/7 Customer Support</h6>
-          <p class="text-sm text-muted mb-0">Friendly 24/7 customer support</p>
-        </div>
-        <div class="col-md-3 col-sm-6 text-center mb-30"><img class="d-block w-90 img-thumbnail rounded mx-auto mb-4" src="img/services/04.png" alt="Payment">
-          <h6 class="mb-2">Secure Online Payment</h6>
-          <p class="text-sm text-muted mb-0">We posess SSL / Secure Certificate</p>
-        </div>
-      </div>
-    </section>
+
     <!-- Site Footer-->
     <footer class="site-footer" style="background-image: url(img/footer-bg.png);">
       <div class="container">
@@ -605,12 +582,12 @@
             <!-- Contact Info-->
             <section class="widget widget-light-skin">
               <h3 class="widget-title">Get In Touch With Us</h3>
-              <p class="text-white">Phone: +1 (900) 33 169 7720</p>
+              <p class="text-white">Phone: +1 (647)-xxx-xxxx</p>
               <ul class="list-unstyled text-sm text-white">
                 <li><span class="opacity-50">Monday-Friday:&nbsp;</span>9.00 am - 8.00 pm</li>
                 <li><span class="opacity-50">Saturday:&nbsp;</span>10.00 am - 6.00 pm</li>
               </ul>
-              <p><a class="navi-link-light" href="#">support@unishop.com</a></p><a class="social-button shape-circle sb-facebook sb-light-skin" href="#"><i class="socicon-facebook"></i></a><a class="social-button shape-circle sb-twitter sb-light-skin" href="#"><i class="socicon-twitter"></i></a><a class="social-button shape-circle sb-instagram sb-light-skin" href="#"><i class="socicon-instagram"></i></a><a class="social-button shape-circle sb-google-plus sb-light-skin" href="#"><i class="socicon-googleplus"></i></a>
+              <p><a class="navi-link-light" href="#">support@partyconnect.com</a></p><a class="social-button shape-circle sb-facebook sb-light-skin" href="#"><i class="socicon-facebook"></i></a><a class="social-button shape-circle sb-twitter sb-light-skin" href="#"><i class="socicon-twitter"></i></a><a class="social-button shape-circle sb-instagram sb-light-skin" href="#"><i class="socicon-instagram"></i></a><a class="social-button shape-circle sb-google-plus sb-light-skin" href="#"><i class="socicon-googleplus"></i></a>
             </section>
           </div>
           <div class="col-lg-3 col-md-6">
@@ -643,7 +620,7 @@
           </div>
         </div>
         <!-- Copyright-->
-        <p class="footer-copyright">© All rights reserved. 2020 Party Planner</a></p>
+        <p class="footer-copyright">© All rights reserved. 2020 PartyConnect</a></p>
       </div>
     </footer>
     <!-- Back To Top Button--><a class="scroll-to-top-btn" href="#"><i class="icon-chevron-up"></i></a>
