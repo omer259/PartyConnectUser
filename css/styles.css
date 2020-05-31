@@ -296,7 +296,7 @@ html * {
 
 body {
   background-position: center;
-  background-color: #e9ecef;
+  background-color: #ffffff;
   background-repeat: no-repeat;
   background-size: cover;
   color: #505050;
@@ -304,7 +304,7 @@ body {
   font-size: 14px;
   font-weight: normal;
   line-height: 1.5;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 a {
@@ -6248,9 +6248,8 @@ video {
   text-decoration: none;
 }
 .site-header .site-branding .site-logo-nav {
-  display:  block;
-  width: 35px;
-  height: 35px;
+  display: block;
+  width: 136px;
   color: #232323 !important;
   text-decoration: none;
 }
@@ -6413,8 +6412,8 @@ video {
 
 .site-header .site-menu {
   display: block;
-  position:relative;
-  width: auto;
+  position: relative;
+  width: 100%;
   z-index: 1;
 }
 
