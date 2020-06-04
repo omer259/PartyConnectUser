@@ -6247,9 +6247,20 @@ video {
   color: #232323 !important;
   text-decoration: none;
 }
-
+.site-header .site-branding .site-logo-nav {
+  display: block;
+  width: 35px;
+  height: 35px;
+  color: #232323 !important;
+  text-decoration: none;
+}
 
 .site-header .site-branding .site-logo > img {
+  display: block;
+  width: 100%;
+
+}
+.site-header .site-branding .site-logo-nav > img {
   display: block;
   width: 100%;
 
