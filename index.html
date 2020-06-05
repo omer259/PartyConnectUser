@@ -30,6 +30,21 @@
 <!-- Body-->
 
 <body>
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="/__/firebase/7.14.6/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="/__/firebase/7.14.6/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="/__/firebase/7.14.6/firebase-auth.js"></script>
+  <script src="/__/firebase/7.14.6/firebase-firestore.js"></script>
+
+  <!-- Initialize Firebase -->
+  <script src="/__/firebase/init.js"></script>
+
+  <div id="app"></div>
+
   <!--Navigation bar-->
   <div id="nav-placeholder"></div>
   <!-- Page Content-->
@@ -44,14 +59,16 @@
           <div class="container padding-top-3x">
             <div class="row justify-content-center align-items-center">
               <div class="col-lg-5 col-md-6 padding-bottom-2x text-md-left text-center">
-
-                <div class="h2 text-body mb-2 pt-1">
-                  <p style="color:black"><b>A Party to Remember!</b></p>
-                </div>
-                <a class="btn btn-primary scale-up delay-1" href="shop-grid-ls.html">Build my Party!&nbsp;<i
+                <div class="from-bottom"><img class="d-inline-block w-150 mb-4"
+                    src="img/logo/trendit/Trendit_Icon_colour_nameplate.png" alt="Puma">
+                  <div class="h2 text-body mb-2 pt-1">
+                    <p style="color:black"><b>A Party to Remember!</b></p>
+                  </div>
+                </div><a class="btn btn-primary scale-up delay-1" href="shop-grid-ls.html">Build my Party!&nbsp;<i
                     class="icon-arrow-right"></i></a>
               </div>
-
+              <div class="col-md-6 padding-bottom-2x mb-3"><img class="d-block mx-auto"
+                  src="img/hero-slider/adam-whitlock-I9j8Rk-JYFM-unsplash.png" alt="Puma Backpack"></div>
             </div>
           </div>
         </div>
@@ -61,12 +78,16 @@
           <div class="container padding-top-3x">
             <div class="row justify-content-center align-items-center">
               <div class="col-lg-5 col-md-6 padding-bottom-2x text-md-left text-center">
-                <div class="h2 text-body mb-2 pt-1">
-                  <p style="color:white"><b>Relive Every Moment!</b></p>
-                </div>
-                <a class="btn btn-primary scale-up delay-1" href="shop-grid-ls.html">Book A Photographer!&nbsp;<i
+                <div class="from-bottom"><img class="d-inline-block w-150 mb-4"
+                    src="img/logo/trendit/Trendit_Icon_colour_nameplate.png" alt="Puma">
+                  <div class="h2 text-body mb-2 pt-1">
+                    <p style="color:white"><b>Relive Every Moment!</b></p>
+                  </div>
+                </div><a class="btn btn-primary scale-up delay-1" href="shop-grid-ls.html">Book A Photographer!&nbsp;<i
                     class="icon-arrow-right"></i></a>
               </div>
+              <div class="col-md-6 padding-bottom-2x mb-3"><img class="d-block mx-auto"
+                  src="img/hero-slider/stephen-h-V4AEsPq6NFs-unsplash.png" alt="Puma Backpack"></div>
             </div>
           </div>
         </div>
@@ -76,14 +97,16 @@
           <div class="container padding-top-3x">
             <div class="row justify-content-center align-items-center">
               <div class="col-lg-5 col-md-6 padding-bottom-2x text-md-left text-center">
-
-                <div class="h2 text-body mb-2 pt-1">
-                  <p style="color:black"><b>It's Wedding Season!</b></p>
-                </div>
-                <a class="btn btn-primary scale-up delay-1" href="shop-grid-ls.html">Plan a Wedding!&nbsp;<i
+                <div class="from-bottom"><img class="d-inline-block w-150 mb-4"
+                    src="img/logo/trendit/Trendit_Icon_colour_nameplate.png" alt="Puma">
+                  <div class="h2 text-body mb-2 pt-1">
+                    <p style="color:black"><b>It's Wedding Season!</b></p>
+                  </div>
+                </div><a class="btn btn-primary scale-up delay-1" href="shop-grid-ls.html">Plan a Wedding!&nbsp;<i
                     class="icon-arrow-right"></i></a>
               </div>
-
+              <div class="col-md-6 padding-bottom-2x mb-3"><img class="d-block mx-auto"
+                  src="img/hero-slider/foto-pettine-IfjHaIoAoqE-unsplash.jpg" alt="Puma Backpack"></div>
             </div>
           </div>
         </div>
@@ -94,51 +117,51 @@
   <section class="container padding-top-3x padding-bottom-2x">
     <div class="row">
       <div class="col-lg-4 col-sm-6">
-        <div class="card border-0 bg-white mb-30">
+        <div class="card border-0 bg-secondary mb-30">
           <div class="card-body d-table w-100">
-            <div class="d-table-cell align-middle"><img class="d-block w-100"
-                src="img/top-categories/brooke-lark-YwSy97_Rk1o-unsplash.jpg" alt="Birthday party"></div>
+            <div class="d-table-cell align-middle"><img class="d-block w-100" src="img/shop/categories/29.png"
+                alt="Image"></div>
             <div class="d-table-cell align-middle pl-2">
-              <h3 class="h6 text-thin">Birthdays, Parties <br><strong>And more...</strong></h3>
+              <h3 class="h6 text-thin">Tablets, Smartphones <br><strong>And more...</strong></h3>
               <h4 class="h6 d-table w-100 text-thin"><span class="d-table-cell align-bottom"
                   style="line-height: 1.2;">UP<br>TO&nbsp;</span><span
                   class="d-table-cell align-bottom h1 text-medium">50%</span><span
                   class="d-table-cell align-bottom">&nbsp;off</span></h4><a class="text-decoration-none"
-                href="shop-grid-ls.html">Plan now&nbsp;<i
+                href="shop-grid-ls.html">Shop now&nbsp;<i
                   class="icon-chevron-right d-inline-block align-middle text-lg"></i></a>
             </div>
           </div>
         </div>
       </div>
       <div class="col-lg-4 col-sm-6">
-        <div class="card border-0 bg-white mb-30">
+        <div class="card border-0 bg-secondary mb-30">
           <div class="card-body d-table w-100">
-            <div class="d-table-cell align-middle"><img class="d-block w-100"
-                src="img/top-categories/c-valdez-U0wBAzAkI-w-unsplash.jpg" alt="Birthday party"></div>
+            <div class="d-table-cell align-middle"><img class="d-block w-100" src="img/shop/categories/30.png"
+                alt="Image"></div>
             <div class="d-table-cell align-middle pl-2">
-              <h3 class="h6 text-thin">Special Ride for Special Day <br><strong>Arrives...</strong></h3>
-              <h4 class="h6 d-table w-100 text-thin"><span class="d-table-cell align-bottom"
-                  style="line-height: 1.2;">From&nbsp;</span><span
-                  class="d-table-cell align-bottom h1 text-medium">$990</span><span
-                  class="d-table-cell align-bottom">&nbsp;off</span></h4><a class="text-decoration-none"
-                href="shop-grid-ls.html">Book now&nbsp;<i
+              <h3 class="h6 text-thin">DJ Phantom <span style='white-space: nowrap;'>HD Video Drone</span>
+                <br><strong>Arrives</strong></h3>
+              <h4 class="h6 d-table w-100 text-thin"><span class="d-table-cell align-top text-right"
+                  style="line-height: 1.2;">From&nbsp;<br><strong>$&nbsp;</strong></span><span
+                  class="d-table-cell align-top h1 text-medium">990</span></h4><a class="text-decoration-none"
+                href="shop-grid-ls.html">Shop now&nbsp;<i
                   class="icon-chevron-right d-inline-block align-middle text-lg"></i></a>
             </div>
           </div>
         </div>
       </div>
       <div class="col-lg-4 col-sm-6">
-        <div class="card border-0 bg-white mb-30">
+        <div class="card border-0 bg-secondary mb-30">
           <div class="card-body d-table w-100">
-            <div class="d-table-cell align-middle"><img class="d-block w-100"
-                src="img/top-categories/yvette-de-wit-NYrVisodQ2M-unsplash.jpg" alt="Birthday party"></div>
+            <div class="d-table-cell align-middle"><img class="d-block w-100" src="img/shop/categories/31.png"
+                alt="Image"></div>
             <div class="d-table-cell align-middle pl-2">
-              <h3 class="h6 text-thin">Plan a night to Remember<br><strong>And more...</strong></h3>
+              <h3 class="h6 text-thin">Watches, Fitness Bands <br><strong>And more...</strong></h3>
               <h4 class="h6 d-table w-100 text-thin"><span class="d-table-cell align-bottom"
                   style="line-height: 1.2;">UP<br>TO&nbsp;</span><span
                   class="d-table-cell align-bottom h1 text-medium">39%</span><span
                   class="d-table-cell align-bottom">&nbsp;off</span></h4><a class="text-decoration-none"
-                href="shop-grid-ls.html">Plan now&nbsp;<i
+                href="shop-grid-ls.html">Shop now&nbsp;<i
                   class="icon-chevron-right d-inline-block align-middle text-lg"></i></a>
             </div>
           </div>
@@ -427,7 +450,6 @@
   <div class="site-backdrop"></div>
   <!-- JavaScript (jQuery) libraries, plugins and custom scripts-->
   <script src="js/vendor.min.js"></script>
-  <!--<script src="js/scripts.min.js"></script>-->
 
   <!-- Load Navbar HTML script -->
   <script>
