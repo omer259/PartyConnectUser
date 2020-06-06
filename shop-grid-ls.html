@@ -1,445 +1,504 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Explore
-    </title>
-    <!-- SEO Meta Tags-->
-    <meta name="description" content="Unishop - Universal E-Commerce Template">
-    <meta name="keywords" content="shop, e-commerce, modern, flat style, responsive, online store, business, mobile, blog, bootstrap 4, html5, css3, jquery, js, gallery, slider, touch, creative, clean">
-    <meta name="author" content="Rokaux">
-    <!-- Mobile Specific Meta Tag-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <!-- Favicon and Apple Icons-->
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+<!--Link for icons like star for rating etc-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<head>
+  <meta charset="utf-8">
+  <title>Explore
+  </title>
+  <!-- SEO Meta Tags-->
+  <meta name="description" content="PartConnect">
+  <meta name="keywords"
+    content="shop, e-commerce, modern, flat style, responsive, online store, business, mobile, blog, bootstrap 4, html5, css3, jquery, js, gallery, slider, touch, creative, clean">
+  <meta name="author" content="Rokaux">
+  <!-- Mobile Specific Meta Tag-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!-- Favicon and Apple Icons-->
+  <!-- <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="apple-touch-icon" href="touch-icon-iphone.png">
     <link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad.png">
     <link rel="apple-touch-icon" sizes="180x180" href="touch-icon-iphone-retina.png">
-    <link rel="apple-touch-icon" sizes="167x167" href="touch-icon-ipad-retina.png">
-    <!-- Vendor Styles including: Bootstrap, Font Icons, Plugins, etc.-->
-    <link rel="stylesheet" media="screen" href="css/vendor.min.css">
-    <!-- Main Template Styles-->
-    <link id="mainStyles" rel="stylesheet" media="screen" href="css/styles.min.css">
-    <!-- Modernizr-->
-    <script src="js/modernizr.min.js"></script>
-  </head>
-  <!-- Body-->
-  <body>
-    <!--Navigation bar -->
-    <div id="nav-placeholder"></div>
-    <!-- Page Title-->
-    <div class="page-title">
-      <div class="container">
-        <div class="column">
-          <h1>Select a Vendor</h1>
-        </div>
-        <div class="column">
-          <ul class="breadcrumbs">
-            <li><a href="index.html">Home</a>
-            </li>
-            <li class="separator">&nbsp;</li>
-            <li>Explore</li>
-          </ul>
-        </div>
+    <link rel="apple-touch-icon" sizes="167x167" href="touch-icon-ipad-retina.png"> -->
+  <!-- Vendor Styles including: Bootstrap, Font Icons, Plugins, etc.-->
+  <link rel="stylesheet" media="screen" href="css/vendor.min.css">
+  <!-- Main Template Styles-->
+  <link id="mainStyles" rel="stylesheet" media="screen" href="css/styles.css">
+  <!-- Modernizr-->
+  <script src="js/modernizr.min.js"></script>
+</head>
+<!-- Body-->
+
+<body>
+  <!--Navigation bar -->
+  <div id="nav-placeholder"></div>
+  <!-- Page Title-->
+  <div class="page-title">
+    <div class="container">
+      <div class="column">
+        <h1>Select a Vendor</h1>
+      </div>
+      <div class="column">
+        <ul class="breadcrumbs">
+          <li><a href="index.html">Home</a>
+          </li>
+          <li class="separator">&nbsp;</li>
+          <li>Explore</li>
+        </ul>
       </div>
     </div>
-    <!-- Page Content-->
-    <div class="container padding-bottom-3x mb-1">
-      <div class="row">
-        <!-- Products-->
-        <div class="col-lg-9 order-lg-2">
-          <!-- Promo banner--><a class="alert alert-default alert-dismissible fade show fw-section mb-30" href="shop-grid-ls.html" style="background-image: url(img/banners/shop-banner-bg.jpg);"><span class="alert-close" data-dismiss="alert"></span>
-            <div class="d-flex flex-wrap flex-md-nowrap justify-content-between align-items-center">
-              <div class="mx-auto mx-md-0 px-3 pb-2 text-center text-md-left"><span class="d-block text-lg text-thin mb-2">Limited Time Deals</span>
-                <h3 class="text-gray-dark">Test</h3>
-                <p class="d-inline-block bg-warning text-white">&nbsp;&nbsp;Explore Now&nbsp;<i class="icon-chevron-right d-inline-block align-middle"></i>&nbsp;</p>
-              </div><img class="d-block mx-auto mx-md-0" src="img/banners/explore-banner-bg.jpg" alt="Surface Pro 4">
-            </div></a>
-          <!-- Shop Toolbar-->
-          <div class="shop-toolbar padding-bottom-1x mb-2">
-            <div class="column">
-              <div class="shop-sorting">
-                <label for="sorting">Sort by:</label>
-                <select class="form-control" id="sorting">
-                  <option>Popularity</option>
-                  <option>Low - High Price</option>
-                  <option>High - Low Price</option>
-                  <option>Average Rating</option>
-                  <option>A - Z Order</option>
-                  <option>Z - A Order</option>
-                </select><span class="text-muted">Showing:&nbsp;</span><span>1 - 12 items</span>
-              </div>
-            </div>
-            <div class="column">
-              <div class="shop-view"><a class="grid-view active" href="shop-grid-ls.html"><span></span><span></span><span></span></a><a class="list-view" href="shop-list-ls.html"><span></span><span></span><span></span></a></div>
+  </div>
+  <!-- Page Content-->
+  <div class="container padding-bottom-3x mb-1">
+    <div class="row">
+      <!-- Products-->
+      <div class="col-lg-9 order-lg-2">
+        <!-- Promo banner--><a class="alert alert-default alert-dismissible fade show fw-section mb-30"
+          href="shop-grid-ls.html" style="background-image: url(img/lt-offer/wedding_plan_WIDE.jpg);"><span
+            class="alert-close" data-dismiss="alert"></span>
+          <div class="d-flex flex-wrap flex-md-nowrap justify-content-between align-items-center">
+            <div class="mx-auto mx-md-0 px-3 pb-2 text-center text-md-left"><span
+                class="d-block text-lg text-thin mb-2">Limited Time Deals</span>
+              <h3 class="text-black"><br> <br> </h3>
+              <p class="d-inline-block bg-warning text-white">&nbsp;&nbsp;Explore Now&nbsp;<i
+                  class="icon-chevron-right d-inline-block align-middle"></i>&nbsp;</p>
             </div>
           </div>
-          <!-- Products Grid-->
-          <div class="row">
-            <div class="col-md-4 col-sm-6">
-              <div class="product-card mb-30">
-                <div class="product-badge bg-danger">-5%</div><a class="product-thumb" href="shop-single.html"><img src="img/shop/products/01.jpg" alt="Product"></a>
-                <div class="product-card-body">
-                  <div class="product-category"><a href="#">Smart home</a></div>
-                  <h3 class="product-title"><a href="shop-single.html">Echo Dot (2nd Generation)</a></h3>
-                  <h4 class="product-price">
-                    <del>$62.00</del>$49.99
-                  </h4>
-                </div>
-                <div class="product-button-group"><a class="product-button btn-wishlist" href="#"><i class="icon-heart"></i><span>Wishlist</span></a><a class="product-button btn-compare" href="#"><i class="icon-repeat"></i><span>Compare</span></a><a class="product-button" href="#" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-check-circle" data-toast-title="Product" data-toast-message="successfuly added to cart!"><i class="icon-shopping-cart"></i><span>To Cart</span></a></div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-              <div class="product-card mb-30">
-                  <div class="rating-stars"><i class="icon-star filled"></i><i class="icon-star filled"></i><i class="icon-star filled"></i><i class="icon-star filled"></i><i class="icon-star"></i>
-                  </div><a class="product-thumb" href="shop-single.html"><img src="img/shop/products/02.jpg" alt="Product"></a>
-                <div class="product-card-body">
-                  <div class="product-category"><a href="#">Photo cameras</a></div>
-                  <h3 class="product-title"><a href="shop-single.html">Aberg Best 21 Mega Pixels</a></h3>
-                  <h4 class="product-price">$35.00</h4>
-                </div>
-                <div class="product-button-group"><a class="product-button btn-wishlist" href="#"><i class="icon-heart"></i><span>Wishlist</span></a><a class="product-button btn-compare" href="#"><i class="icon-repeat"></i><span>Compare</span></a><a class="product-button" href="#" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-check-circle" data-toast-title="Product" data-toast-message="successfuly added to cart!"><i class="icon-shopping-cart"></i><span>To Cart</span></a></div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-              <div class="product-card mb-30"><a class="product-thumb" href="shop-single.html"><img src="img/shop/products/05.jpg" alt="Product"></a>
-                <div class="product-card-body">
-                  <div class="product-category"><a href="#">Headphones</a></div>
-                  <h3 class="product-title"><a href="shop-single.html">Zeus Bluetooth Headphones</a></h3>
-                  <h4 class="product-price">$28.99</h4>
-                </div>
-                <div class="product-button-group"><a class="product-button btn-wishlist" href="#"><i class="icon-heart"></i><span>Wishlist</span></a><a class="product-button btn-compare" href="#"><i class="icon-repeat"></i><span>Compare</span></a><a class="product-button" href="#" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-check-circle" data-toast-title="Product" data-toast-message="successfuly added to cart!"><i class="icon-shopping-cart"></i><span>To Cart</span></a></div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-              <div class="product-card mb-30">
-                  <div class="rating-stars"><i class="icon-star filled"></i><i class="icon-star filled"></i><i class="icon-star filled"></i><i class="icon-star filled"></i><i class="icon-star filled"></i>
-                  </div><a class="product-thumb" href="shop-single.html"><img src="img/shop/products/06.jpg" alt="Product"></a>
-                <div class="product-card-body">
-                  <div class="product-category"><a href="#">Video games</a></div>
-                  <h3 class="product-title"><a href="shop-single.html">Xbox One S White</a></h3>
-                  <h4 class="product-price">$298.99</h4>
-                </div>
-                <div class="product-button-group"><a class="product-button btn-wishlist" href="#"><i class="icon-heart"></i><span>Wishlist</span></a><a class="product-button btn-compare" href="#"><i class="icon-repeat"></i><span>Compare</span></a><a class="product-button" href="#" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-check-circle" data-toast-title="Product" data-toast-message="successfuly added to cart!"><i class="icon-shopping-cart"></i><span>To Cart</span></a></div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-              <div class="product-card mb-30"><a class="product-thumb" href="shop-single.html"><img src="img/shop/products/07.jpg" alt="Product"></a>
-                <div class="product-card-body">
-                  <div class="product-category"><a href="#">Smartphones</a></div>
-                  <h3 class="product-title"><a href="shop-single.html">Samsung Galaxy S9+</a></h3>
-                  <h4 class="product-price">$839.99</h4>
-                </div>
-                <div class="product-button-group"><a class="product-button btn-wishlist" href="#"><i class="icon-heart"></i><span>Wishlist</span></a><a class="product-button btn-compare" href="#"><i class="icon-repeat"></i><span>Compare</span></a><a class="product-button" href="#" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-check-circle" data-toast-title="Product" data-toast-message="successfuly added to cart!"><i class="icon-shopping-cart"></i><span>To Cart</span></a></div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-              <div class="product-card mb-30">
-                <div class="product-badge bg-secondary border-default text-body">Coming Soon</div><a class="product-thumb" href="shop-single.html"><img src="img/shop/products/03.jpg" alt="Product"></a>
-                <div class="product-card-body">
-                  <div class="product-category"><a href="#">Computers, laptops</a></div>
-                  <h3 class="product-title"><a href="shop-single.html">Microsoft Surface Pro 4</a></h3>
-                  <h4 class="product-price">$1,049.10</h4>
-                </div>
-                <div class="product-button-group"><a class="product-button btn-wishlist" href="#"><i class="icon-heart"></i><span>Wishlist</span></a><a class="product-button btn-compare" href="#"><i class="icon-repeat"></i><span>Compare</span></a><a class="product-button" href="shop-single.html"><i class="icon-arrow-right"></i><span>Details</span></a></div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6">     
-              <div class="product-card mb-30"><a class="product-thumb" href="shop-single.html"><img src="img/shop/products/08.jpg" alt="Product"></a>
-                <div class="product-card-body">
-                  <div class="product-category"><a href="#">TV, Video &amp; Audio</a></div>
-                  <h3 class="product-title"><a href="shop-single.html">Sony 55-Inch 4K Smart TV</a></h3>
-                  <h4 class="product-price">$1,195.00</h4>
-                </div>
-                <div class="product-button-group"><a class="product-button btn-wishlist" href="#"><i class="icon-heart"></i><span>Wishlist</span></a><a class="product-button btn-compare" href="#"><i class="icon-repeat"></i><span>Compare</span></a><a class="product-button" href="#" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-check-circle" data-toast-title="Product" data-toast-message="successfuly added to cart!"><i class="icon-shopping-cart"></i><span>To Cart</span></a></div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6">     
-              <div class="product-card mb-30">
-                <div class="product-badge bg-danger">Sale</div><a class="product-thumb" href="shop-single.html"><img src="img/shop/products/09.jpg" alt="Product"></a>
-                <div class="product-card-body">
-                  <div class="product-category"><a href="#">Action cameras</a></div>
-                  <h3 class="product-title"><a href="shop-single.html">Samsung Gear 360 Camera</a></h3>
-                  <h4 class="product-price">
-                    <del>$74.00</del>$68.00
-                  </h4>
-                </div>
-                <div class="product-button-group"><a class="product-button btn-wishlist" href="#"><i class="icon-heart"></i><span>Wishlist</span></a><a class="product-button btn-compare" href="#"><i class="icon-repeat"></i><span>Compare</span></a><a class="product-button" href="#" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-check-circle" data-toast-title="Product" data-toast-message="successfuly added to cart!"><i class="icon-shopping-cart"></i><span>To Cart</span></a></div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-              <div class="product-card mb-30">
-                  <div class="rating-stars"><i class="icon-star filled"></i><i class="icon-star filled"></i><i class="icon-star filled"></i><i class="icon-star filled"></i><i class="icon-star"></i>
-                  </div><a class="product-thumb" href="shop-single.html"><img src="img/shop/products/10.jpg" alt="Product"></a>
-                <div class="product-card-body">
-                  <div class="product-category"><a href="#">Printers &amp; Ink</a></div>
-                  <h3 class="product-title"><a href="shop-single.html">HP LaserJet Pro Printer</a></h3>
-                  <h4 class="product-price">$249.50</h4>
-                </div>
-                <div class="product-button-group"><a class="product-button btn-wishlist" href="#"><i class="icon-heart"></i><span>Wishlist</span></a><a class="product-button btn-compare" href="#"><i class="icon-repeat"></i><span>Compare</span></a><a class="product-button" href="#" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-check-circle" data-toast-title="Product" data-toast-message="successfuly added to cart!"><i class="icon-shopping-cart"></i><span>To Cart</span></a></div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-              <div class="product-card mb-30"><a class="product-thumb" href="shop-single.html"><img src="img/shop/products/04.jpg" alt="Product"></a>
-                <div class="product-card-body">
-                  <div class="product-category"><a href="#">Smartphones</a></div>
-                  <h3 class="product-title"><a href="shop-single.html">Apple iPhone X 64GB</a></h3>
-                  <h4 class="product-price">$939.99</h4>
-                </div>
-                <div class="product-button-group"><a class="product-button btn-wishlist" href="#"><i class="icon-heart"></i><span>Wishlist</span></a><a class="product-button btn-compare" href="#"><i class="icon-repeat"></i><span>Compare</span></a><a class="product-button" href="#" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-check-circle" data-toast-title="Product" data-toast-message="successfuly added to cart!"><i class="icon-shopping-cart"></i><span>To Cart</span></a></div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-              <div class="product-card mb-30">
-                  <div class="rating-stars"><i class="icon-star filled"></i><i class="icon-star filled"></i><i class="icon-star filled"></i><i class="icon-star"></i><i class="icon-star"></i>
-                  </div><a class="product-thumb" href="shop-single.html"><img src="img/shop/products/11.jpg" alt="Product"></a>
-                <div class="product-card-body">
-                  <div class="product-category"><a href="#">Headphones</a></div>
-                  <h3 class="product-title"><a href="shop-single.html">Edifier W855BT Bluetooth</a></h3>
-                  <h4 class="product-price">$99.75</h4>
-                </div>
-                <div class="product-button-group"><a class="product-button btn-wishlist" href="#"><i class="icon-heart"></i><span>Wishlist</span></a><a class="product-button btn-compare" href="#"><i class="icon-repeat"></i><span>Compare</span></a><a class="product-button" href="#" data-toast data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-check-circle" data-toast-title="Product" data-toast-message="successfuly added to cart!"><i class="icon-shopping-cart"></i><span>To Cart</span></a></div>
-              </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-              <div class="product-card mb-30">
-                <div class="product-badge bg-secondary border-default text-body">Out of stock</div><a class="product-thumb" href="shop-single.html"><img src="img/shop/products/12.jpg" alt="Product"></a>
-                <div class="product-card-body">
-                  <div class="product-category"><a href="#">Wearable electornics</a></div>
-                  <h3 class="product-title"><a href="shop-single.html">Apple Watch Series 3</a></h3>
-                  <h4 class="product-price">$329.10</h4>
-                </div>
-                <div class="product-button-group"><a class="product-button btn-wishlist" href="#"><i class="icon-heart"></i><span>Wishlist</span></a><a class="product-button btn-compare" href="#"><i class="icon-repeat"></i><span>Compare</span></a><a class="product-button" href="shop-single.html"><i class="icon-arrow-right"></i><span>Details</span></a></div>
-              </div>
+        </a>
+        <!-- Shop Toolbar-->
+        <div class="shop-toolbar padding-bottom-1x mb-2">
+          <div class="column">
+            <div class="shop-sorting">
+              <label for="sorting">Sort by:</label>
+              <select class="form-control" id="sorting">
+                <option>Popularity</option>
+                <option>Low - High Price</option>
+                <option>High - Low Price</option>
+                <option>Average Rating</option>
+                <option>A - Z Order</option>
+                <option>Z - A Order</option>
+              </select><span class="text-muted">Showing:&nbsp;</span><span>1 - 12 items</span>
             </div>
           </div>
-          <!-- Pagination-->
-          <nav class="pagination">
-            <div class="column">
-              <ul class="pages">
-                <li class="active"><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-                <li>...</li>
-                <li><a href="#">12</a></li>
-              </ul>
-            </div>
-            <div class="column text-right hidden-xs-down"><a class="btn btn-outline-secondary btn-sm" href="#">Next&nbsp;<i class="icon-chevron-right"></i></a></div>
-          </nav>
+          <div class="column">
+            <div class="shop-view"><a class="grid-view active"
+                href="shop-grid-ls.html"><span></span><span></span><span></span></a><a class="list-view"
+                href="shop-list-ls.html"><span></span><span></span><span></span></a></div>
+          </div>
         </div>
-        <!-- Sidebar          -->
-        <div class="col-lg-3 order-lg-1">
-          <div class="sidebar-toggle position-left"><i class="icon-filter"></i></div>
-          <aside class="sidebar sidebar-offcanvas position-left"><span class="sidebar-close"><i class="icon-x"></i></span>
-            <!-- Widget Categories-->
-            <section class="widget widget-categories">
-              <h3 class="widget-title">Shop Categories</h3>
-              <ul>
-                <li class="has-children expanded"><a href="#">Venues</a><span>(20)</span>
-                  <ul>
-                    <li><a href="#">Desktop PCs</a><span>(508)</span>
-                      <ul>
-                        <li><a href="#">Office PC</a></li>
-                        <li><a href="#">Gaming PC</a></li>
-                        <li><a href="#">PC for Learning</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="#">Laptops</a><span>(423)</span>
-                      <ul>
-                        <li><a href="#">15' Screens </a></li>
-                        <li><a href="#">13' Screens</a></li>
-                        <li><a href="#">Touch Screens</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="#">Nettops</a><span>(97)</span></li>
-                    <li><a href="#">PC Accessories</a><span>(110)</span></li>
-                  </ul>
-                </li>
-                <li class="has-children"><a href="#">Smartphones &amp; Tablets</a><span>(2356)</span>
-                  <ul>
-                    <li><a href="#">Smartphones</a><span>(1032)</span>
-                      <ul>
-                        <li><a href="#">Android</a></li>
-                        <li><a href="#">iOS</a></li>
-                        <li><a href="#">QHD Screen</a></li>
-                        <li><a href="#">WQHD Screen</a></li>
-                        <li><a href="#">Full HD Screen</a></li>
-                        <li><a href="#">Super Amoled</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="#">Tablets</a><span>(937)</span>
-                      <ul>
-                        <li><a href="#">Wifi only</a></li>
-                        <li><a href="#">Wifi + 3G</a></li>
-                        <li><a href="#">Android</a></li>
-                        <li><a href="#">iOS</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="#">Phablets</a><span>(386)</span></li>
-                  </ul>
-                </li>
-                <li class="has-children"><a href="#">TV, Video &amp; Audio</a><span>(420)</span>
-                  <ul>
-                    <li><a href="#">Smart TV Sets</a><span>(180)</span></li>
-                    <li><a href="#">Blue-Ray Players</a><span>(132)</span></li>
-                    <li><a href="#">Sound Systems</a><span>(47)</span></li>
-                    <li><a href="#">Home Theaters</a><span>(61)</span></li>
-                  </ul>
-                </li>
-                <li class="has-children"><a href="#">Cameras, Photo &amp; Video</a><span>(874)</span>
-                  <ul>
-                    <li><a href="#">Photo Cameras</a><span>(211)</span></li>
-                    <li><a href="#">Video Cameras</a><span>(195)</span></li>
-                    <li><a href="#">Action Cameras</a><span>(159)</span></li>
-                    <li><a href="#">Tripods &amp; Stands</a><span>(203)</span></li>
-                    <li><a href="#">Lenses</a><span>(106)</span></li>
-                  </ul>
-                </li>
-                <li class="has-children"><a href="#">Headphones</a><span>(1239)</span>
-                  <ul>
-                    <li><a href="#">Earbud Headphones</a><span>(752)</span></li>
-                    <li><a href="#">Over-Ear Headphones</a><span>(487)</span></li>
-                    <li><a href="#">Bluetooth Headphones</a><span>(205)</span></li>
-                    <li><a href="#">Sports &amp; Fitness Headphones</a><span>(96)</span></li>
-                    <li><a href="#">Noise-Cancelling Headphones</a><span>(113)</span></li>
-                  </ul>
-                </li>
-                <li class="has-children"><a href="#">Wearable Electronics</a><span>(340)</span>
-                  <ul>
-                    <li><a href="#">Smart Watches</a><span>(175)</span></li>
-                    <li><a href="#">Fitness Trackers</a><span>(123)</span></li>
-                    <li><a href="#">Smart Glasses</a><span>(42)</span></li>
-                  </ul>
-                </li>
-                <li class="has-children"><a href="#">Printers &amp; Ink</a><span>(512)</span>
-                  <ul>
-                    <li><a href="#">All-In-One</a><span>(304)</span></li>
-                    <li><a href="#">Copying</a><span>(115)</span></li>
-                    <li><a href="#">Faxing</a><span>(211)</span></li>
-                    <li><a href="#">Photo Printing</a><span>(68)</span></li>
-                    <li><a href="#">Printing Only</a><span>(143)</span></li>
-                    <li><a href="#">Scanning</a><span>(122)</span></li>
-                  </ul>
-                </li>
-                <li class="has-children"><a href="#">Video Games</a><span>(656)</span>
-                  <ul>
-                    <li><a href="#">PlayStation 4</a><span>(100)</span></li>
-                    <li><a href="#">Xbox One</a><span>(92)</span></li>
-                    <li><a href="#">Nintendo Switch</a><span>(19)</span></li>
-                    <li><a href="#">Games</a><span>(397)</span></li>
-                    <li><a href="#">Accessories</a><span>(48)</span></li>
-                  </ul>
-                </li>
-              </ul>
-            </section>
-            <!-- Widget Price Range-->
-            <section class="widget widget-categories">
-              <h3 class="widget-title">Price Range</h3>
-              <form class="price-range-slider" method="post" data-start-min="250" data-start-max="650" data-min="0" data-max="1000" data-step="1">
-                <div class="ui-range-slider"></div>
-                <footer class="ui-range-slider-footer">
-                  <div class="column">
-                    <button class="btn btn-outline-primary btn-sm" type="submit">Filter</button>
-                  </div>
-                  <div class="column">
-                    <div class="ui-range-values">
-                      <div class="ui-range-value-min">$<span></span>
-                        <input type="hidden">
-                      </div>&nbsp;-&nbsp;
-                      <div class="ui-range-value-max">$<span></span>
-                        <input type="hidden">
-                      </div>
+        <!-- Products Grid-->
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="product-card mb-30">
+              <div class="rating-stars bg-secondary"> <span class="fa fa-star checked"></span><span
+                  class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span
+                  class="fa fa-star checked"></span><span class="fa fa-star"></span>
+              </div>
+              <div class="product-badge bg-danger">Sale</div><a class="product-thumb" href="shop-single.html"><img
+                  src="img/top-categories/DJ_party.jpg" alt="Product"></a>
+              <div class="product-card-body">
+                <div class="product-category"><a href="#">Party</a></div>
+                <h3 class="product-title"><a href="shop-single.html">DJ ABCD</a></h3>
+                <h4 class="product-price">
+                  <del>$149.99</del>$119.99/hr
+                </h4>
+              </div>
+              <div class="product-button-group"><a class="product-button btn-wishlist" href="#"><i
+                    class="icon-heart"></i><span>Wishlist</span></a><a class="product-button btn-compare" href="#"><i
+                    class="icon-repeat"></i><span>Compare</span></a><a class="product-button" href="#" data-toast
+                  data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-check-circle"
+                  data-toast-title="Product" data-toast-message="successfuly added to cart!"><i
+                    class="icon-shopping-cart"></i><span>To Cart</span></a></div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="product-card mb-30">
+              <div class="rating-stars bg-secondary"> <span class="fa fa-star checked"></span><span
+                  class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span
+                  class="fa fa-star checked"></span><span class="fa fa-star"></span>
+              </div>
+              <a class="product-thumb" href="shop-single.html"><img src="img/top-categories/venue1LQ.jpg"
+                  alt="Product"></a>
+              <div class="product-card-body">
+                <div class="product-category"><a href="#">Venue</a></div>
+                <h3 class="product-title"><a href="shop-single.html">Indian Palace</a></h3>
+                <h4 class="product-price">$2499.99</h4>
+              </div>
+              <div class="product-button-group"><a class="product-button btn-wishlist" href="#"><i
+                    class="icon-heart"></i><span>Wishlist</span></a><a class="product-button btn-compare" href="#"><i
+                    class="icon-repeat"></i><span>Compare</span></a><a class="product-button" href="#" data-toast
+                  data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-check-circle"
+                  data-toast-title="Product" data-toast-message="successfuly added to cart!"><i
+                    class="icon-shopping-cart"></i><span>To Cart</span></a></div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="product-card mb-30">
+              <div class="rating-stars"> <span class="fa fa-star checked"></span><span
+                  class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span
+                  class="fa fa-star checked"></span><span class="fa fa-star"></span>
+              </div>
+              <a class="product-thumb" href="shop-single.html"><img src="img/top-categories/Food1.jpg"
+                  alt="Product"></a>
+              <div class="product-card-body">
+                <div class="product-category"><a href="#">Catering</a></div>
+                <h3 class="product-title"><a href="shop-single.html">martin's Catering</a></h3>
+                <h4 class="product-price">From $28.99/person</h4>
+              </div>
+              <div class="product-button-group"><a class="product-button btn-wishlist" href="#"><i
+                    class="icon-heart"></i><span>Wishlist</span></a><a class="product-button btn-compare" href="#"><i
+                    class="icon-repeat"></i><span>Compare</span></a><a class="product-button" href="#" data-toast
+                  data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-check-circle"
+                  data-toast-title="Product" data-toast-message="successfuly added to cart!"><i
+                    class="icon-shopping-cart"></i><span>To Cart</span></a></div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="product-card mb-30">
+              <div class="rating-stars bg-secondary"> <span class="fa fa-star checked"></span><span
+                  class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span
+                  class="fa fa-star checked"></span><span class="fa fa-star"></span>
+              </div>
+              <div class="product-badge bg-danger">Sale</div><a class="product-thumb" href="shop-single.html"><img
+                  src="img/top-categories/birthday2.jpg" alt="Product"></a>
+              <div class="product-card-body">
+                <div class="product-category"><a href="#">Birthday</a></div>
+                <h3 class="product-title"><a href="shop-single.html">Birthday Decorations</a></h3>
+                <h4 class="product-price">
+                  From $19.99
+                </h4>
+              </div>
+              <div class="product-button-group"><a class="product-button btn-wishlist" href="#"><i
+                    class="icon-heart"></i><span>Wishlist</span></a><a class="product-button btn-compare" href="#"><i
+                    class="icon-repeat"></i><span>Compare</span></a><a class="product-button" href="#" data-toast
+                  data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-check-circle"
+                  data-toast-title="Product" data-toast-message="successfuly added to cart!"><i
+                    class="icon-shopping-cart"></i><span>To Cart</span></a></div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="product-card mb-30">
+              <div class="rating-stars bg-secondary"> <span class="fa fa-star checked"></span><span
+                  class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span
+                  class="fa fa-star checked"></span><span class="fa fa-star"></span>
+              </div>
+              <div class="product-badge bg-danger">Sale</div><a class="product-thumb" href="shop-single.html"><img
+                  src="img/top-categories/DJ_party.jpg" alt="Product"></a>
+              <div class="product-card-body">
+                <div class="product-category"><a href="#">Party!</a></div>
+                <h3 class="product-title"><a href="shop-single.html">DJ ABCD</a></h3>
+                <h4 class="product-price">
+                  <del>$149.99</del>$119.99/hr
+                </h4>
+              </div>
+              <div class="product-button-group"><a class="product-button btn-wishlist" href="#"><i
+                    class="icon-heart"></i><span>Wishlist</span></a><a class="product-button btn-compare" href="#"><i
+                    class="icon-repeat"></i><span>Compare</span></a><a class="product-button" href="#" data-toast
+                  data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-check-circle"
+                  data-toast-title="Product" data-toast-message="successfuly added to cart!"><i
+                    class="icon-shopping-cart"></i><span>To Cart</span></a></div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="product-card mb-30">
+              <div class="rating-stars bg-secondary"> <span class="fa fa-star checked"></span><span
+                  class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span
+                  class="fa fa-star checked"></span><span class="fa fa-star"></span>
+              </div>
+              <div class="product-badge bg-danger">Sale</div><a class="product-thumb" href="shop-single.html"><img
+                  src="img/top-categories/DJ_party.jpg" alt="Product"></a>
+              <div class="product-card-body">
+                <div class="product-category"><a href="#">Party!</a></div>
+                <h3 class="product-title"><a href="shop-single.html">DJ ABCD</a></h3>
+                <h4 class="product-price">
+                  <del>$149.99</del>$119.99/hr
+                </h4>
+              </div>
+              <div class="product-button-group"><a class="product-button btn-wishlist" href="#"><i
+                    class="icon-heart"></i><span>Wishlist</span></a><a class="product-button btn-compare" href="#"><i
+                    class="icon-repeat"></i><span>Compare</span></a><a class="product-button" href="#" data-toast
+                  data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-check-circle"
+                  data-toast-title="Product" data-toast-message="successfuly added to cart!"><i
+                    class="icon-shopping-cart"></i><span>To Cart</span></a></div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="product-card mb-30">
+              <div class="rating-stars bg-secondary"> <span class="fa fa-star checked"></span><span
+                  class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span
+                  class="fa fa-star checked"></span><span class="fa fa-star"></span>
+              </div>
+              <div class="product-badge bg-danger">Sale</div><a class="product-thumb" href="shop-single.html"><img
+                  src="img/top-categories/DJ_party.jpg" alt="Product"></a>
+              <div class="product-card-body">
+                <div class="product-category"><a href="#">Party!</a></div>
+                <h3 class="product-title"><a href="shop-single.html">DJ ABCD</a></h3>
+                <h4 class="product-price">
+                  <del>$149.99</del>$119.99/hr
+                </h4>
+              </div>
+              <div class="product-button-group"><a class="product-button btn-wishlist" href="#"><i
+                    class="icon-heart"></i><span>Wishlist</span></a><a class="product-button btn-compare" href="#"><i
+                    class="icon-repeat"></i><span>Compare</span></a><a class="product-button" href="#" data-toast
+                  data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-check-circle"
+                  data-toast-title="Product" data-toast-message="successfuly added to cart!"><i
+                    class="icon-shopping-cart"></i><span>To Cart</span></a></div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="product-card mb-30">
+              <div class="rating-stars bg-secondary"> <span class="fa fa-star checked"></span><span
+                  class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span
+                  class="fa fa-star checked"></span><span class="fa fa-star"></span>
+              </div>
+              <div class="product-badge bg-danger">Sale</div><a class="product-thumb" href="shop-single.html"><img
+                  src="img/top-categories/DJ_party.jpg" alt="Product"></a>
+              <div class="product-card-body">
+                <div class="product-category"><a href="#">Party!</a></div>
+                <h3 class="product-title"><a href="shop-single.html">DJ ABCD</a></h3>
+                <h4 class="product-price">
+                  <del>$149.99</del>$119.99/hr
+                </h4>
+              </div>
+              <div class="product-button-group"><a class="product-button btn-wishlist" href="#"><i
+                    class="icon-heart"></i><span>Wishlist</span></a><a class="product-button btn-compare" href="#"><i
+                    class="icon-repeat"></i><span>Compare</span></a><a class="product-button" href="#" data-toast
+                  data-toast-type="success" data-toast-position="topRight" data-toast-icon="icon-check-circle"
+                  data-toast-title="Product" data-toast-message="successfuly added to cart!"><i
+                    class="icon-shopping-cart"></i><span>To Cart</span></a></div>
+            </div>
+          </div>
+        </div>
+        <!-- Pagination-->
+        <nav class="pagination">
+          <div class="column">
+            <ul class="pages">
+              <li class="active"><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li>...</li>
+              <li><a href="#">12</a></li>
+            </ul>
+          </div>
+          <div class="column text-right hidden-xs-down"><a class="btn btn-outline-secondary btn-sm"
+              href="#">Next&nbsp;<i class="icon-chevron-right"></i></a></div>
+        </nav>
+      </div>
+      <!-- Sidebar          -->
+      <div class="col-lg-3 order-lg-1">
+        <div class="sidebar-toggle position-left"><i class="icon-filter"></i></div>
+        <aside class="sidebar sidebar-offcanvas position-left"><span class="sidebar-close"><i class="icon-x"></i></span>
+          <!-- Widget Categories-->
+          <section class="widget widget-categories">
+            <h3 class="widget-title">Shop Categories</h3>
+            <ul>
+              <li class="has-children expanded"><a href="#">Venues</a><span>(250)</span>
+                <ul>
+                  <li><a href="#">Banquet halls</a><span>(100)</span></li>
+                  <li><a href="#">Open Air venue</a><span>(20)</span></li>
+                  <li><a href="#">Place of Worship</a><span>(20)</span></li>
+                  <li><a href="#">Restaurants</a><span>(100)</span>
+                  </li>
+                  <li><a href="#">Others</a><span>(10)</span></li>
+                </ul>
+              </li>
+              <li class="has-children expanded"><a href="#">Decorations</a><span>(250)</span>
+                <ul>
+                  <li><a href="#">Decorative Furnitures</a><span>(20)</span></li>
+                  <li><a href="#">Flowers</a><span>(100)</span>
+                  </li>
+                  <li><a href="#">Lighting</a><span>(100)</span></li>
+                  <li><a href="#">Props</a><span>(20)</span></li>
+                  <li><a href="#">Others</a><span>(10)</span></li>
+                </ul>
+              </li>
+              <li class="has-children"><a href="#">Music &amp; Entertainment</a><span>(420)</span>
+                <ul>
+                  <li><a href="#">Musician</a><span>(47)</span></li>
+                  <li><a href="#">Projectionist</a><span>(132)</span></li>
+                  <li><a href="#">Performer</a><span>(31)</span></li>
+                  <li><a href="#">Sound System</a><span>(180)</span></li>
+                  <li><a href="#">Others</a><span>(30)</span></li>
+                </ul>
+              </li>
+              <li class="has-children"><a href="#">Food &amp; Catering</a><span>(874)</span>
+                <ul>
+                  <li><a href="#">Birthdays &amp; Parites Catering</a><span>(203)</span></li>
+                  <li><a href="#">Corporate Catering</a><span>(159)</span></li>
+                  <li><a href="#">Restaurant Catering</a><span>(211)</span></li>
+                  <li><a href="#">Wedding Catering</a><span>(195)</span></li>
+                  <li><a href="#">Others</a><span>(106)</span></li>
+                </ul>
+              </li>
+              <li class="has-children"><a href="#">Services</a><span>(1239)</span>
+                <ul>
+                  <li><a href="#">Electrical Technicians</a><span>(487)</span></li>
+                  <li><a href="#">House Cleaning</a><span>(752)</span></li>
+
+                  <li><a href="#">Landscaping</a><span>(205)</span></li>
+                  <li><a href="#">Sports &amp; Fitness Trainers</a><span>(96)</span></li>
+                  <li><a href="#">Others</a><span>(113)</span></li>
+                </ul>
+              </li>
+              <li class="has-children"><a href="#">Transportation</a><span>(340)</span>
+                <ul>
+                  <li><a href="#">Boat Rentals</a><span>(42)</span></li>
+                  <li><a href="#">Exotic Car Rentals</a><span>(175)</span></li>
+                  <li><a href="#">Limousine Rentals</a><span>(123)</span></li>
+                  <li><a href="#">Large Vehicle Rental</a><span>(42)</span></li>
+
+                  <li><a href="#">Others</a><span>(42)</span></li>
+                </ul>
+              </li>
+
+            </ul>
+          </section>
+          <!-- Widget Price Range-->
+          <section class="widget widget-categories">
+            <h3 class="widget-title">Price Range</h3>
+            <form class="price-range-slider" method="post" data-start-min="250" data-start-max="650" data-min="0"
+              data-max="1000" data-step="1">
+              <div class="ui-range-slider"></div>
+              <footer class="ui-range-slider-footer">
+                <div class="column">
+                  <button class="btn btn-outline-primary btn-sm" type="submit">Filter</button>
+                </div>
+                <div class="column">
+                  <div class="ui-range-values">
+                    <div class="ui-range-value-min">$<span></span>
+                      <input type="hidden">
+                    </div>&nbsp;-&nbsp;
+                    <div class="ui-range-value-max">$<span></span>
+                      <input type="hidden">
                     </div>
                   </div>
-                </footer>
-              </form>
-            </section>
-            <!-- Widget Size Filter-->
-            <section class="widget">
-              <h3 class="widget-title">Filter by Price</h3>
-              <div class="custom-control custom-checkbox">
-                <input class="custom-control-input" type="checkbox" id="low">
-                <label class="custom-control-label" for="low">$50 - $100L&nbsp;<span class="text-muted">(208)</span></label>
-              </div>
-              <div class="custom-control custom-checkbox">
-                <input class="custom-control-input" type="checkbox" id="middle">
-                <label class="custom-control-label" for="middle">$100L - $500&nbsp;<span class="text-muted">(311)</span></label>
-              </div>
-              <div class="custom-control custom-checkbox">
-                <input class="custom-control-input" type="checkbox" id="high">
-                <label class="custom-control-label" for="high">$500 - $1,000&nbsp;<span class="text-muted">(485)</span></label>
-              </div>
-              <div class="custom-control custom-checkbox">
-                <input class="custom-control-input" type="checkbox" id="top">
-                <label class="custom-control-label" for="top">$1,000 - $5,000&nbsp;<span class="text-muted">(213)</span></label>
-              </div>
-            </section>
-            <!-- Widget Brand Filter-->
-            <section class="widget">
-              <h3 class="widget-title">Filter by Brand</h3>
-              <div class="custom-control custom-checkbox">
-                <input class="custom-control-input" type="checkbox" id="apple">
-                <label class="custom-control-label" for="apple">Apple&nbsp;<span class="text-muted">(254)</span></label>
-              </div>
-              <div class="custom-control custom-checkbox">
-                <input class="custom-control-input" type="checkbox" id="bosh">
-                <label class="custom-control-label" for="bosh">Bosh&nbsp;<span class="text-muted">(39)</span></label>
-              </div>
-              <div class="custom-control custom-checkbox">
-                <input class="custom-control-input" type="checkbox" id="canon">
-                <label class="custom-control-label" for="canon">Canon Inc.&nbsp;<span class="text-muted">(128)</span></label>
-              </div>
-              <div class="custom-control custom-checkbox">
-                <input class="custom-control-input" type="checkbox" id="dell">
-                <label class="custom-control-label" for="dell">Dell&nbsp;<span class="text-muted">(310)</span></label>
-              </div>
-              <div class="custom-control custom-checkbox">
-                <input class="custom-control-input" type="checkbox" id="hewlet">
-                <label class="custom-control-label" for="hewlet">Hewlett-Packard&nbsp;<span class="text-muted">(42)</span></label>
-              </div>
-              <div class="custom-control custom-checkbox">
-                <input class="custom-control-input" type="checkbox" id="hitachi">
-                <label class="custom-control-label" for="hitachi">Hitachi&nbsp;<span class="text-muted">(217)</span></label>
-              </div>
-              <div class="custom-control custom-checkbox">
-                <input class="custom-control-input" type="checkbox" id="lg">
-                <label class="custom-control-label" for="lg">LG Electronics&nbsp;<span class="text-muted">(310)</span></label>
-              </div>
-              <div class="custom-control custom-checkbox">
-                <input class="custom-control-input" type="checkbox" id="panasonic">
-                <label class="custom-control-label" for="panasonic">Panasonic&nbsp;<span class="text-muted">(74)</span></label>
-              </div>
-              <div class="custom-control custom-checkbox">
-                <input class="custom-control-input" type="checkbox" id="siemens">
-                <label class="custom-control-label" for="siemens">Siemens&nbsp;<span class="text-muted">(86)</span></label>
-              </div>
-            </section>
-          </aside>
-        </div>
+                </div>
+              </footer>
+            </form>
+          </section>
+          <!-- Widget Size Filter-->
+          <section class="widget">
+            <h3 class="widget-title">Filter by Price</h3>
+            <div class="custom-control custom-checkbox">
+              <input class="custom-control-input" type="checkbox" id="low">
+              <label class="custom-control-label" for="low">$50 - $100&nbsp;<span
+                  class="text-muted">(208)</span></label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input class="custom-control-input" type="checkbox" id="middle">
+              <label class="custom-control-label" for="middle">$100 - $500&nbsp;<span
+                  class="text-muted">(311)</span></label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input class="custom-control-input" type="checkbox" id="high">
+              <label class="custom-control-label" for="high">$500 - $1,000&nbsp;<span
+                  class="text-muted">(485)</span></label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input class="custom-control-input" type="checkbox" id="top">
+              <label class="custom-control-label" for="top">$1,000 - $5,000&nbsp;<span
+                  class="text-muted">(213)</span></label>
+            </div>
+          </section>
+          <!-- Widget Brand Filter-->
+          <!--<section class="widget">
+            <h3 class="widget-title">Filter by Brand</h3>
+            <div class="custom-control custom-checkbox">
+              <input class="custom-control-input" type="checkbox" id="apple">
+              <label class="custom-control-label" for="apple">Apple&nbsp;<span class="text-muted">(254)</span></label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input class="custom-control-input" type="checkbox" id="bosh">
+              <label class="custom-control-label" for="bosh">Bosh&nbsp;<span class="text-muted">(39)</span></label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input class="custom-control-input" type="checkbox" id="canon">
+              <label class="custom-control-label" for="canon">Canon Inc.&nbsp;<span
+                  class="text-muted">(128)</span></label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input class="custom-control-input" type="checkbox" id="dell">
+              <label class="custom-control-label" for="dell">Dell&nbsp;<span class="text-muted">(310)</span></label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input class="custom-control-input" type="checkbox" id="hewlet">
+              <label class="custom-control-label" for="hewlet">Hewlett-Packard&nbsp;<span
+                  class="text-muted">(42)</span></label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input class="custom-control-input" type="checkbox" id="hitachi">
+              <label class="custom-control-label" for="hitachi">Hitachi&nbsp;<span
+                  class="text-muted">(217)</span></label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input class="custom-control-input" type="checkbox" id="lg">
+              <label class="custom-control-label" for="lg">LG Electronics&nbsp;<span
+                  class="text-muted">(310)</span></label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input class="custom-control-input" type="checkbox" id="panasonic">
+              <label class="custom-control-label" for="panasonic">Panasonic&nbsp;<span
+                  class="text-muted">(74)</span></label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input class="custom-control-input" type="checkbox" id="siemens">
+              <label class="custom-control-label" for="siemens">Siemens&nbsp;<span
+                  class="text-muted">(86)</span></label>
+            </div>
+          </section> -->
+
+
+<!-- Widget Rating Filter-->
+          <section class="widget">
+            <h3 class="widget-title">Filter by Rating</h3>
+            <div class="custom-control custom-checkbox">
+              <input class="custom-control-input" type="checkbox" id="siemens">
+              <label class="custom-control-label" for="5 stars"><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span></label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input class="custom-control-input" type="checkbox" id="siemens">
+              <label class="custom-control-label" for="5 stars"><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span></label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input class="custom-control-input" type="checkbox" id="siemens">
+              <label class="custom-control-label" for="5 stars"><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input class="custom-control-input" type="checkbox" id="siemens">
+              <label class="custom-control-label" for="5 stars"><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input class="custom-control-input" type="checkbox" id="siemens">
+              <label class="custom-control-label" for="5 stars"><span class="fa fa-star checked"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></label>
+            </div>
+          </section>
+        </aside>
       </div>
     </div>
-    <!--Site Footer-->
-    <div id="footer-placeholder"></div>
-    <!-- Back To Top Button--><a class="scroll-to-top-btn" href="#"><i class="icon-chevron-up"></i></a>
-    <!-- Backdrop-->
-    <div class="site-backdrop"></div>
-    <!-- JavaScript (jQuery) libraries, plugins and custom scripts-->
-    <script src="js/vendor.min.js"></script>
-    <!-- <script src="js/scripts.min.js"></script> -->
+  </div>
+  <!--Site Footer-->
+  <div id="footer-placeholder"></div>
+  <!-- Back To Top Button--><a class="scroll-to-top-btn" href="#"><i class="icon-chevron-up"></i></a>
+  <!-- Backdrop-->
+  <div class="site-backdrop"></div>
+  <!-- JavaScript (jQuery) libraries, plugins and custom scripts-->
+  <script src="js/vendor.min.js"></script>
+  <!-- <script src="js/scripts.min.js"></script> -->
 
-    <!-- Load Navbar HTML script -->
-    <script>
-    $(function(){
+  <!-- Load Navbar HTML script -->
+  <script>
+    $(function () {
       $("#nav-placeholder").load("navbar.html");
     });
-    </script>
-    <!-- Load Navbar Footer script -->
-    <script>
-    $(function(){
+  </script>
+  <!-- Load Navbar Footer script -->
+  <script>
+    $(function () {
       $("#footer-placeholder").load("footer.html");
     });
-    </script>
-  </body>
+  </script>
+</body>
+
 </html>
